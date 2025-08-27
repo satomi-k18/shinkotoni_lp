@@ -9,7 +9,7 @@ import {
 import { navLinks, features, recommendations } from './constants';
 
 const Hero = () => (
-    <section id="home" className="relative h-screen flex items-center justify-center text-center text-white bg-cover bg-center" style={{backgroundImage: "url('/images/TOP.png')"}}>
+    <section id="home" className="relative h-screen flex items-center justify-center text-center text-white bg-cover bg-center" style={{backgroundImage: "url('./images/TOP.png')"}}>
         <div className="absolute inset-0 bg-black bg-opacity-40"></div>
         <div className="relative z-10 p-4">
             <h1 className="font-serif text-4xl md:text-6xl lg:text-7xl leading-tight">
@@ -118,7 +118,7 @@ const Details = () => (
                     </div>
                 </div>
                 <div>
-                    <img src="/images/kaikan.jpg" alt="新琴似双葉福祉会館" className="rounded-lg shadow-lg w-full h-auto object-cover"/>
+                    <img src="./images/kaikan.jpg" alt="新琴似双葉福祉会館" className="rounded-lg shadow-lg w-full h-auto object-cover"/>
                 </div>
             </div>
         </div>
@@ -131,7 +131,7 @@ const Instructor = () => (
             <h2 className="font-serif text-3xl md:text-4xl text-brand-dark text-center mb-12">インストラクター紹介</h2>
             <div className="flex flex-col md:flex-row items-center md:items-start max-w-5xl mx-auto bg-white p-8 rounded-lg shadow-md">
                 <div className="md:w-1/3 mb-6 md:mb-0 md:mr-8 text-center">
-                    <img src="/images/satomi-konishi-yoga-instructor.jpg" alt="Satomi" className="rounded-full w-48 h-48 mx-auto object-cover shadow-lg" />
+                    <img src="./images/satomi-konishi-yoga-instructor.jpg" alt="Satomi" className="rounded-full w-48 h-48 mx-auto object-cover shadow-lg" />
                 </div>
                 <div className="md:w-2/3">
                     <h3 className="font-serif text-2xl text-brand-dark mb-2">Satomi</h3>
