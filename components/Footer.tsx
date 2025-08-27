@@ -19,7 +19,7 @@ export const Footer = () => (
                     <span className="mt-2 text-sm font-sans">Instagram</span>
                 </a>
             </div>
-            <p className="font-sans text-sm text-gray-400">&copy; {new Date().getFullYear()} 新琴似ヨガクラス. All Rights Reserved.</p>
+            <p className="font-sans text-sm text-gray-400">&copy; {new Date().getFullYear()} Shinkotoni Yoga Class. All Rights Reserved.</p>
         </div>
     </footer>
 );
